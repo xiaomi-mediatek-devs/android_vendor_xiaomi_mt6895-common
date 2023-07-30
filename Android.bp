@@ -278,6 +278,13 @@ install_symlink {
 }
 
 install_symlink {
+	name: "libgamehdr_libgamehdr_symlink64",
+	soc_specific: true,
+	installed_location: "lib64/libgamehdr.so",
+	symlink_target: "/vendor/lib64/mt6895/libgamehdr.so",
+}
+
+install_symlink {
 	name: "libmnl_libmnl_symlink64",
 	soc_specific: true,
 	installed_location: "lib64/libmnl.so",

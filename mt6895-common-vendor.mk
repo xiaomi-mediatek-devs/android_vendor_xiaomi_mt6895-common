@@ -305,6 +305,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mt6895-common/proprietary/vendor/lib64/libgralloctypes_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgralloctypes_mtk.so \
     vendor/xiaomi/mt6895-common/proprietary/vendor/lib64/libgwsdv2-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgwsdv2-ril.so \
     vendor/xiaomi/mt6895-common/proprietary/vendor/lib64/libgwsdv3-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgwsdv3-ril.so \
+    vendor/xiaomi/mt6895-common/proprietary/vendor/lib64/libhdrvideo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdrvideo.so \
     vendor/xiaomi/mt6895-common/proprietary/vendor/lib64/libhfmanager.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhfmanager.so \
     vendor/xiaomi/mt6895-common/proprietary/vendor/lib64/libhwm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwm.so \
     vendor/xiaomi/mt6895-common/proprietary/vendor/lib64/libifcutils_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libifcutils_mtk.so \
@@ -392,6 +393,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mt6895-common/proprietary/vendor/lib64/mt6895/libaalservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6895/libaalservice.so \
     vendor/xiaomi/mt6895-common/proprietary/vendor/lib64/mt6895/libaiselector.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6895/libaiselector.so \
     vendor/xiaomi/mt6895-common/proprietary/vendor/lib64/mt6895/libdpframework.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6895/libdpframework.so \
+    vendor/xiaomi/mt6895-common/proprietary/vendor/lib64/mt6895/libgamehdr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6895/libgamehdr.so \
     vendor/xiaomi/mt6895-common/proprietary/vendor/lib64/mt6895/libmnl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6895/libmnl.so \
     vendor/xiaomi/mt6895-common/proprietary/vendor/lib64/mt6895/libmtk_drvb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6895/libmtk_drvb.so \
     vendor/xiaomi/mt6895-common/proprietary/vendor/lib64/mt6895/libneuralnetworks_sl_driver_mtk_prebuilt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6895/libneuralnetworks_sl_driver_mtk_prebuilt.so \
@@ -486,6 +488,7 @@ PRODUCT_PACKAGES += \
     libaalservice_libaalservice_symlink64 \
     libaiselector_libaiselector_symlink64 \
     libdpframework_libdpframework_symlink64 \
+    libgamehdr_libgamehdr_symlink64 \
     libmnl_libmnl_symlink64 \
     libmtk_drvb_libmtk_drvb_symlink64 \
     libneuralnetworks_sl_driver_mtk_prebuilt_libneuralnetworks_sl_driver_mtk_prebuilt_symlink64 \
