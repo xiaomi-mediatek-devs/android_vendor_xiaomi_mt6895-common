@@ -202,11 +202,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mt6895-common/proprietary/vendor/etc/init/wlan_assistant.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wlan_assistant.rc \
     vendor/xiaomi/mt6895-common/proprietary/vendor/etc/nnapi_powerhal.json:$(TARGET_COPY_OUT_VENDOR)/etc/nnapi_powerhal.json \
     vendor/xiaomi/mt6895-common/proprietary/vendor/etc/rsc/CN/ro.prop:$(TARGET_COPY_OUT_VENDOR)/etc/rsc/CN/ro.prop \
-    vendor/xiaomi/mt6895-common/proprietary/vendor/etc/rsc/CN/rw.prop:$(TARGET_COPY_OUT_VENDOR)/etc/rsc/CN/rw.prop \
     vendor/xiaomi/mt6895-common/proprietary/vendor/etc/rsc/GL/ro.prop:$(TARGET_COPY_OUT_VENDOR)/etc/rsc/GL/ro.prop \
-    vendor/xiaomi/mt6895-common/proprietary/vendor/etc/rsc/GL/rw.prop:$(TARGET_COPY_OUT_VENDOR)/etc/rsc/GL/rw.prop \
     vendor/xiaomi/mt6895-common/proprietary/vendor/etc/rsc/IN/ro.prop:$(TARGET_COPY_OUT_VENDOR)/etc/rsc/IN/ro.prop \
-    vendor/xiaomi/mt6895-common/proprietary/vendor/etc/rsc/IN/rw.prop:$(TARGET_COPY_OUT_VENDOR)/etc/rsc/IN/rw.prop \
     vendor/xiaomi/mt6895-common/proprietary/vendor/etc/slp_conf:$(TARGET_COPY_OUT_VENDOR)/etc/slp_conf \
     vendor/xiaomi/mt6895-common/proprietary/vendor/etc/special_pws_channel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/special_pws_channel.xml \
     vendor/xiaomi/mt6895-common/proprietary/vendor/etc/vendor-apns-conf.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vendor-apns-conf.xml \
@@ -237,6 +234,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mt6895-common/proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.1-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.bluetooth@1.1-impl-mediatek.so \
     vendor/xiaomi/mt6895-common/proprietary/vendor/lib64/hw/android.hardware.gnss-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gnss-impl-mediatek.so \
     vendor/xiaomi/mt6895-common/proprietary/vendor/lib64/hw/android.hardware.gnss@2.1-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gnss@2.1-impl-mediatek.so \
+    vendor/xiaomi/mt6895-common/proprietary/vendor/lib64/hw/android.hardware.sensors@2.X-subhal-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.sensors@2.X-subhal-mediatek.so \
     vendor/xiaomi/mt6895-common/proprietary/vendor/lib64/hw/audio.r_submix.mt6895.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.r_submix.mt6895.so \
     vendor/xiaomi/mt6895-common/proprietary/vendor/lib64/hw/consumerir.common.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/consumerir.common.so \
     vendor/xiaomi/mt6895-common/proprietary/vendor/lib64/hw/gps.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gps.default.so \
