@@ -425,14 +425,6 @@
     <EccEntry Ecc="911" Category="0" Condition="1" Plmn="302 FFF"/>
     <EccEntry Ecc="999" Category="0" Condition="0" Plmn="302 FFF"/>
 
-    <EccEntry Ecc="128" Category="0" Condition="2" Plmn="704 FFF"/>
-
-    <!-- MIUIROM-1300546-->
-    <EccEntry Ecc="122" Category="0" Condition="2" Plmn="704 FFF"/>
-    <EccEntry Ecc="123" Category="0" Condition="2" Plmn="704 FFF"/>
-    <EccEntry Ecc="110" Category="0" Condition="2" Plmn="704 FFF"/>
-    <EccEntry Ecc="125" Category="0" Condition="2" Plmn="704 FFF"/>
-
     <EccEntry Ecc="911" Category="0" Condition="1" Plmn="334 FFF"/>
     <EccEntry Ecc="112" Category="0" Condition="1" Plmn="334 FFF"/>
 
@@ -524,9 +516,7 @@
     <EccEntry Ecc="133" Category="0" Condition="1" Plmn="706 FFF"/>
     <EccEntry Ecc="911" Category="0" Condition="1" Plmn="706 FFF"/>
 
-    <EccEntry Ecc="115" Category="0" Condition="1" Plmn="710 FFF"/>
     <EccEntry Ecc="118" Category="0" Condition="1" Plmn="710 FFF"/>
-    <EccEntry Ecc="128" Category="0" Condition="1" Plmn="710 FFF"/>
     <EccEntry Ecc="911" Category="0" Condition="1" Plmn="710 FFF"/>
 
     <EccEntry Ecc="103" Category="0" Condition="1" Plmn="714 FFF"/>
@@ -642,14 +632,10 @@
     <EccEntry Ecc="911" Category="0" Condition="1" Plmn="706 04"/>
     <EccEntry Ecc="122" Category="0" Condition="1" Plmn="706 04"/>
 
-    <EccEntry Ecc="115" Category="0" Condition="1" Plmn="710 30"/>
     <EccEntry Ecc="118" Category="0" Condition="1" Plmn="710 30"/>
-    <EccEntry Ecc="128" Category="0" Condition="1" Plmn="710 30"/>
     <EccEntry Ecc="911" Category="0" Condition="1" Plmn="710 30"/>
 
-    <EccEntry Ecc="115" Category="0" Condition="1" Plmn="710 300"/>
     <EccEntry Ecc="118" Category="0" Condition="1" Plmn="710 300"/>
-    <EccEntry Ecc="128" Category="0" Condition="1" Plmn="710 300"/>
     <EccEntry Ecc="911" Category="0" Condition="1" Plmn="710 300"/>
 
     <EccEntry Ecc="103" Category="0" Condition="1" Plmn="714 02"/>
@@ -767,4 +753,8 @@
 
     <!--add for Kenya-->
     <EccEntry Ecc="999" Category="0" Condition="1" Plmn = "639 FFF"/>
+
+    <!-- Add for slovenia-->
+    <EccEntry Ecc="113" Category="0" Condition="1" Plmn = "293 40" />
+    <EccEntry Ecc="113" Category="0" Condition="2" Plmn = "293 70" />
 </EccTable>

@@ -1157,4 +1157,9 @@
       v3="46009"
     />
   </carrier_mapping>
+    <carrier_mapping name="CBN">
+    <mcc_mnc
+      v1="46015"
+    />
+  </carrier_mapping>
 </mtk_agps_profiles>
