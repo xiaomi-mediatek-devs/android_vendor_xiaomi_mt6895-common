@@ -477,14 +477,14 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mt6895-common/proprietary/vendor/bin/fidoca_mitee:$(TARGET_COPY_OUT_VENDOR)/bin/fidoca_mitee \
     vendor/xiaomi/mt6895-common/proprietary/vendor/bin/hw/android.hardware.secure_element@1.2-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.secure_element@1.2-service-mediatek \
     vendor/xiaomi/mt6895-common/proprietary/vendor/bin/hw/android.hardware.security.keymint@1.0-service.mitee:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.security.keymint@1.0-service.mitee \
-    vendor/xiaomi/mt6895-common/proprietary/vendor/bin/hw/vendor.microtrust.hardware.thh@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.microtrust.hardware.thh@2.0-service \
+    vendor/xiaomi/mt6895-common/proprietary/vendor/bin/miteelog:$(TARGET_COPY_OUT_VENDOR)/bin/miteelog \
     vendor/xiaomi/mt6895-common/proprietary/vendor/bin/mlipayd_mitee@1.1:$(TARGET_COPY_OUT_VENDOR)/bin/mlipayd_mitee@1.1 \
     vendor/xiaomi/mt6895-common/proprietary/vendor/bin/mtd_mitee@1.3:$(TARGET_COPY_OUT_VENDOR)/bin/mtd_mitee@1.3 \
-    vendor/xiaomi/mt6895-common/proprietary/vendor/bin/teei_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/teei_daemon \
+    vendor/xiaomi/mt6895-common/proprietary/vendor/bin/tee-supplicant:$(TARGET_COPY_OUT_VENDOR)/bin/tee-supplicant \
     vendor/xiaomi/mt6895-common/proprietary/vendor/etc/init/android.hardware.secure_element@1.2-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.secure_element@1.2-service-mediatek.rc \
     vendor/xiaomi/mt6895-common/proprietary/vendor/etc/init/android.hardware.security.keymint-service.mitee.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.security.keymint-service.mitee.rc \
-    vendor/xiaomi/mt6895-common/proprietary/vendor/etc/init/micotrustr.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/micotrustr.rc \
-    vendor/xiaomi/mt6895-common/proprietary/vendor/etc/init/vendor.microtrust.hardware.thh@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.microtrust.hardware.thh@2.0-service.rc \
+    vendor/xiaomi/mt6895-common/proprietary/vendor/etc/init/miteelog.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/miteelog.rc \
+    vendor/xiaomi/mt6895-common/proprietary/vendor/etc/init/tee-supplicant.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/tee-supplicant.rc \
     vendor/xiaomi/mt6895-common/proprietary/vendor/etc/init/vendor.xiaomi.hardware.mfidoca@1.0-miteeservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.mfidoca@1.0-miteeservice.rc \
     vendor/xiaomi/mt6895-common/proprietary/vendor/etc/init/vendor.xiaomi.hardware.mlipay@1.1-miteeservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.mlipay@1.1-miteeservice.rc \
     vendor/xiaomi/mt6895-common/proprietary/vendor/etc/init/vendor.xiaomi.hardware.mtdservice@1.3-miteeservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.mtdservice@1.3-miteeservice.rc \
@@ -504,7 +504,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mt6895-common/proprietary/vendor/lib64/ls_nq_client-v1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/ls_nq_client-v1.so \
     vendor/xiaomi/mt6895-common/proprietary/vendor/lib64/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediadrm/libwvdrmengine.so \
     vendor/xiaomi/mt6895-common/proprietary/vendor/lib64/se_nq_extn_client-v1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/se_nq_extn_client-v1.so \
-    vendor/xiaomi/mt6895-common/proprietary/vendor/lib64/vendor.microtrust.hardware.thh@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.microtrust.hardware.thh@2.0.so \
     vendor/xiaomi/mt6895-common/proprietary/vendor/mitee/ta/14b0aad8-c011-4a3f-b66aca8d0e66f273.ta:$(TARGET_COPY_OUT_VENDOR)/mitee/ta/14b0aad8-c011-4a3f-b66aca8d0e66f273.ta \
     vendor/xiaomi/mt6895-common/proprietary/vendor/mitee/ta/2e8fade5-0c7a-46cc-810e6468baee66b9.ta:$(TARGET_COPY_OUT_VENDOR)/mitee/ta/2e8fade5-0c7a-46cc-810e6468baee66b9.ta \
     vendor/xiaomi/mt6895-common/proprietary/vendor/mitee/ta/377ee4e8-af0e-474f-a9d636a9268fe85c.ta:$(TARGET_COPY_OUT_VENDOR)/mitee/ta/377ee4e8-af0e-474f-a9d636a9268fe85c.ta \
@@ -515,8 +514,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mt6895-common/proprietary/vendor/mitee/ta/8aaaf201-2460-0000-7143fe4f7c823c80.ta:$(TARGET_COPY_OUT_VENDOR)/mitee/ta/8aaaf201-2460-0000-7143fe4f7c823c80.ta \
     vendor/xiaomi/mt6895-common/proprietary/vendor/mitee/ta/a734eed9-d6a1-4244-aa507c99719e7b7f.ta:$(TARGET_COPY_OUT_VENDOR)/mitee/ta/a734eed9-d6a1-4244-aa507c99719e7b7f.ta \
     vendor/xiaomi/mt6895-common/proprietary/vendor/mitee/ta/dba51a17-0563-11e7-93b16fa7b0071a51.ta:$(TARGET_COPY_OUT_VENDOR)/mitee/ta/dba51a17-0563-11e7-93b16fa7b0071a51.ta \
-    vendor/xiaomi/mt6895-common/proprietary/vendor/mitee/ta/e97c270e-a5c4-4c58-bcd3384a2fa2539e.ta:$(TARGET_COPY_OUT_VENDOR)/mitee/ta/e97c270e-a5c4-4c58-bcd3384a2fa2539e.ta \
-    vendor/xiaomi/mt6895-common/proprietary/vendor/thh/ta/mitee_model.json:$(TARGET_COPY_OUT_VENDOR)/thh/ta/mitee_model.json
+    vendor/xiaomi/mt6895-common/proprietary/vendor/mitee/ta/e97c270e-a5c4-4c58-bcd3384a2fa2539e.ta:$(TARGET_COPY_OUT_VENDOR)/mitee/ta/e97c270e-a5c4-4c58-bcd3384a2fa2539e.ta
 
 PRODUCT_PACKAGES += \
     android.hardware.security.keymint-service.mitee \
