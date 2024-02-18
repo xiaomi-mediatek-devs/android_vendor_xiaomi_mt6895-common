@@ -34,7 +34,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mt6895-common/proprietary/vendor/bin/hw/android.hardware.media.c2@1.2-mediatek-64b:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.media.c2@1.2-mediatek-64b \
     vendor/xiaomi/mt6895-common/proprietary/vendor/bin/hw/android.hardware.neuralnetworks-shim-service-mtk:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.neuralnetworks-shim-service-mtk \
     vendor/xiaomi/mt6895-common/proprietary/vendor/bin/hw/android.hardware.secure_element@1.2-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.secure_element@1.2-service-mediatek \
-    vendor/xiaomi/mt6895-common/proprietary/vendor/bin/hw/android.hardware.usb@1.2-service-mediatekv2:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.usb@1.2-service-mediatekv2 \
     vendor/xiaomi/mt6895-common/proprietary/vendor/bin/hw/android.hardware.graphics.allocator@4.0-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.graphics.allocator@4.0-service-mediatek \
     vendor/xiaomi/mt6895-common/proprietary/vendor/bin/hw/mtkfusionrild:$(TARGET_COPY_OUT_VENDOR)/bin/hw/mtkfusionrild \
     vendor/xiaomi/mt6895-common/proprietary/vendor/bin/hw/tetheroffloadservice:$(TARGET_COPY_OUT_VENDOR)/bin/hw/tetheroffloadservice \
@@ -177,7 +176,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mt6895-common/proprietary/vendor/etc/init/android.hardware.media.c2@1.2-mediatek-64b.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.media.c2@1.2-mediatek-64b.rc \
     vendor/xiaomi/mt6895-common/proprietary/vendor/etc/init/android.hardware.neuralnetworks-shim-service-mtk.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.neuralnetworks-shim-service-mtk.rc \
     vendor/xiaomi/mt6895-common/proprietary/vendor/etc/init/android.hardware.secure_element@1.2-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.secure_element@1.2-service-mediatek.rc \
-    vendor/xiaomi/mt6895-common/proprietary/vendor/etc/init/android.hardware.usb@1.2-service-mediatekv2.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb@1.2-service-mediatekv2.rc \
     vendor/xiaomi/mt6895-common/proprietary/vendor/etc/init/chipinfo_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/chipinfo_init.rc \
     vendor/xiaomi/mt6895-common/proprietary/vendor/etc/init/init.bt_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.bt_drv.rc \
     vendor/xiaomi/mt6895-common/proprietary/vendor/etc/init/init.cccimdinit.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.cccimdinit.rc \
@@ -201,9 +199,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mt6895-common/proprietary/vendor/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc \
     vendor/xiaomi/mt6895-common/proprietary/vendor/etc/init/wlan_assistant.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wlan_assistant.rc \
     vendor/xiaomi/mt6895-common/proprietary/vendor/etc/nnapi_powerhal.json:$(TARGET_COPY_OUT_VENDOR)/etc/nnapi_powerhal.json \
-    vendor/xiaomi/mt6895-common/proprietary/vendor/etc/rsc/CN/ro.prop:$(TARGET_COPY_OUT_VENDOR)/etc/rsc/CN/ro.prop \
-    vendor/xiaomi/mt6895-common/proprietary/vendor/etc/rsc/GL/ro.prop:$(TARGET_COPY_OUT_VENDOR)/etc/rsc/GL/ro.prop \
-    vendor/xiaomi/mt6895-common/proprietary/vendor/etc/rsc/IN/ro.prop:$(TARGET_COPY_OUT_VENDOR)/etc/rsc/IN/ro.prop \
     vendor/xiaomi/mt6895-common/proprietary/vendor/etc/slp_conf:$(TARGET_COPY_OUT_VENDOR)/etc/slp_conf \
     vendor/xiaomi/mt6895-common/proprietary/vendor/etc/special_pws_channel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/special_pws_channel.xml \
     vendor/xiaomi/mt6895-common/proprietary/vendor/etc/vendor-apns-conf.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vendor-apns-conf.xml \
@@ -468,7 +463,6 @@ PRODUCT_PACKAGES += \
     mediatek-telephony-common \
     com.android.hotwordenrollment.common.util \
     android.hardware.neuralnetworks-shim-service-mtk \
-    android.hardware.usb@1.2-service-mediatekv2 \
     gnss-mtk \
     gnss@2.1-service \
     manifest_android.hardware.drm@1.4-service.widevine \
@@ -503,13 +497,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mt6895-common/proprietary/vendor/lib64/libmlipay_mitee@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmlipay_mitee@1.1.so \
     vendor/xiaomi/mt6895-common/proprietary/vendor/lib64/libmt_mitee@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmt_mitee@1.3.so \
     vendor/xiaomi/mt6895-common/proprietary/vendor/lib64/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liboemcrypto.so \
+    vendor/xiaomi/mt6895-common/proprietary/vendor/lib64/libteecli.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libteecli.so \
     vendor/xiaomi/mt6895-common/proprietary/vendor/lib64/libthha.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libthha.so \
     vendor/xiaomi/mt6895-common/proprietary/vendor/lib64/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwvhidl.so \
     vendor/xiaomi/mt6895-common/proprietary/vendor/lib64/libwvkeybox.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwvkeybox.so \
     vendor/xiaomi/mt6895-common/proprietary/vendor/lib64/ls_nq_client-v1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/ls_nq_client-v1.so \
-    vendor/xiaomi/mt6895-common/proprietary/vendor/lib64/mediacas/libclearkeycasplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediacas/libclearkeycasplugin.so \
-    vendor/xiaomi/mt6895-common/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediadrm/libdrmclearkeyplugin.so \
-    vendor/xiaomi/mt6895-common/proprietary/vendor/lib64/mediadrm/libmockdrmcryptoplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediadrm/libmockdrmcryptoplugin.so \
     vendor/xiaomi/mt6895-common/proprietary/vendor/lib64/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediadrm/libwvdrmengine.so \
     vendor/xiaomi/mt6895-common/proprietary/vendor/lib64/se_nq_extn_client-v1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/se_nq_extn_client-v1.so \
     vendor/xiaomi/mt6895-common/proprietary/vendor/lib64/vendor.microtrust.hardware.thh@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.microtrust.hardware.thh@2.0.so \
