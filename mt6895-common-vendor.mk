@@ -111,6 +111,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mt6895-common/proprietary/vendor/etc/ecc_list_OP20.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP20.xml \
     vendor/xiaomi/mt6895-common/proprietary/vendor/etc/ecc_list_OP236.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP236.xml \
     vendor/xiaomi/mt6895-common/proprietary/vendor/etc/ecc_list_preference.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_preference.xml \
+    vendor/xiaomi/mt6895-common/proprietary/vendor/etc/excluded-input-devices.xml:$(TARGET_COPY_OUT_VENDOR)/etc/excluded-input-devices.xml \
     vendor/xiaomi/mt6895-common/proprietary/vendor/etc/gnss/agps_profiles_conf2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/agps_profiles_conf2.xml \
     vendor/xiaomi/mt6895-common/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_ATnT_Mexico.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_ATnT_Mexico.xml \
     vendor/xiaomi/mt6895-common/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_ATnT_US.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_ATnT_US.xml \
@@ -163,6 +164,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mt6895-common/proprietary/vendor/etc/init/vendor.xiaomi.hardware.mfidoca@1.0-iseeservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.mfidoca@1.0-iseeservice.rc \
     vendor/xiaomi/mt6895-common/proprietary/vendor/etc/init/vendor.xiaomi.hardware.mlipay@1.1-iseeservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.mlipay@1.1-iseeservice.rc \
     vendor/xiaomi/mt6895-common/proprietary/vendor/etc/init/vendor.xiaomi.hardware.mtdservice@1.3-iseeservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.mtdservice@1.3-iseeservice.rc \
+    vendor/xiaomi/mt6895-common/proprietary/vendor/etc/init/vendor.xiaomi.hardware.vibratorfeature.service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.vibratorfeature.service.rc \
     vendor/xiaomi/mt6895-common/proprietary/vendor/etc/init/wlan_assistant.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wlan_assistant.rc \
     vendor/xiaomi/mt6895-common/proprietary/vendor/etc/nnapi_powerhal.json:$(TARGET_COPY_OUT_VENDOR)/etc/nnapi_powerhal.json \
     vendor/xiaomi/mt6895-common/proprietary/vendor/etc/slp_conf:$(TARGET_COPY_OUT_VENDOR)/etc/slp_conf \
@@ -221,6 +223,7 @@ PRODUCT_PACKAGES += \
     libTEECommon \
     lib_iir \
     lib_speech_enh \
+    libaachaptics \
     libaal_cust \
     libaal_key \
     libaal_mtk \
@@ -403,6 +406,7 @@ PRODUCT_PACKAGES += \
     libpqpconfig \
     se_nq_extn_client-v1 \
     secure_element-impl \
+    vendor.hardware.vibratorfeature.IVibratorExt-V1-ndk_platform \
     vendor.mediatek.hardware.apuware.apusys@2.0 \
     vendor.mediatek.hardware.apuware.apusys@2.1 \
     vendor.mediatek.hardware.apuware.hmp@1.0 \
@@ -492,6 +496,7 @@ PRODUCT_PACKAGES += \
     manifest_media_c2_V1_1_default.xml \
     manifest_wechat.xml \
     vendor.mediatek.hardware.neuropilot.agent@1.0-service.xml \
+    vendor.xiaomi.hardware.vibratorfeature.service.xml \
     ccci_mdinit \
     ccci_rpcd \
     chipinfo \
@@ -514,6 +519,7 @@ PRODUCT_PACKAGES += \
     vendor.microtrust.hardware.se@1.0-service \
     vendor.microtrust.hardware.soter@1.0-service \
     vendor.microtrust.hardware.thh@2.0-service \
+    vendor.xiaomi.hardware.vibratorfeature.service \
     vtservice_hidl \
     mlipayd_isee@1.1 \
     mnld \
